@@ -249,9 +249,10 @@ public class TestCases {
         if (taskTitle.getText().equalsIgnoreCase("Crio INTV Task Automation")) {
 
             System.out.println("Task Title verified: PASS");
+
         } else {
 
-            System.out.println("Task title not verified: FAIL");
+            System.out.println("Task title is not verified: FAIL");
         }
 
         //to delete a created task
@@ -262,7 +263,7 @@ public class TestCases {
 
         WebElement deleteTaskMsg = driver.findElement(By.xpath("//div[@class='VYTiVb']"));
         String deleteMsgText = deleteTaskMsg.getText();
-        
+
         if (deleteMsgText.contains("Task deleted")) {
 
             System.out.println(
