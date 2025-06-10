@@ -2,15 +2,15 @@ This repository contains an automated test suite for Google Calendar using Java.
 The goal of this automation is to ensure that key features of the Google Calendar web application function correctly. The tests are implemented in TestCases.java and triggered via App.java, the entry point of the automation code.
 
 Technologies Used:
-Java
-Selenium WebDriver
-TestNG
+Java,
+Selenium WebDriver,
+TestNG,
 Gradle
-ChromeDriver
 
-Test Cases Covered:
+Test Cases:-
 
-✅TestCase01: Verify Calendar Home Page
+TestCase01: 
+Verify Calendar Home Page.
 Description:
 Verify that the Google Calendar homepage loads correctly.
 Test Steps:
@@ -19,7 +19,8 @@ Verify that the current URL contains the word "calendar".
 Expected Result:
 The URL of the Calendar homepage contains "calendar".
 
-✅TestCase02: Verify Calendar Navigation and Add Task
+TestCase02: 
+Verify Calendar Navigation and Add Task
 Description:
 Switch to month view and add a task for the current date.
 Test Steps:
@@ -32,7 +33,8 @@ Description: Crio INTV Calendar Task Automation
 Expected Result:
 Calendar switches to month view and a new task is created successfully.
 
-✅TestCase03: Verify the Task Updation
+TestCase03: 
+Verify the Task Updation.
 Description:
 Update an existing task and verify the new description.
 Test Steps:
@@ -44,7 +46,8 @@ Verify that the new description is displayed.
 Expected Result:
 The task is updated successfully with the new description.
 
-✅TestCase04: Verify the Task Deletion
+TestCase04:
+Verify the Task Deletion.
 Description:
 Delete an existing task and confirm its deletion.
 Test Steps:
